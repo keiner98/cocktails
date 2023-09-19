@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+
+  .img {
+    // background-color: ;
+    background-color: #93e3c3;
+    padding: 10px;
+    border-radius: 50%;
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: none;
+    }
+  }
+  .content {
+    color: #594647;
+    .title {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+}

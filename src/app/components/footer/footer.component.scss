@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 8rem;
+  flex-direction: row;
+  align-items: center;
+  background: #445951;
+  color: white;
+  font-weight: 600;
+  p {
+    width: 265px;
+
+  }
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    li{
+      cursor: pointer;
+    }
+  }
+}

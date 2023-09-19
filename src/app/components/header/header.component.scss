@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  flex-direction: row;
+  align-items: center;
+  .title {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    img {
+      height: 6rem;
+      object-fit: contain;
+    }
+
+    .menu {
+      display: flex;
+      list-style: none;
+      gap: 4rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #a39995;
+
+      li {
+        cursor: pointer;
+        &:hover {
+          color: #68615e;
+          transition: 500ms all;
+        }
+      }
+    }
+  }
+
+  .search {
+    // width: 100px;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    .input-seach {
+      position: relative;
+      font-family: "Montserrat";
+      img {
+        left: 16px;
+        top: 26%;
+        position: absolute;
+        height: 20px;
+      }
+      input {
+        height: 40px;
+        padding-left: 40px;
+        width: 120px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        padding-right: 0.75rem;
+        -webkit-box-shadow: -1px 9px 15px -1px rgba(179, 179, 179, 1);
+        -moz-box-shadow: -1px 9px 15px -1px rgba(179, 179, 179, 1);
+        box-shadow: -1px 9px 15px -1px rgba(179, 179, 179, 1);
+      }
+    }
+    .icon-save {
+      cursor: pointer;
+    }
+  }
+}
